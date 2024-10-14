@@ -34,9 +34,12 @@ import com.example.a2unit_1pathway.ui.theme._2unit_1pathwayTheme
 //}
 
 fun main() {
-    val trafficLightColor = "Black"
+    val trafficLightColor = "Yellow"
 
     when (trafficLightColor) {
         "Red" -> println("Stop")
+        "Yellow" -> println("Slow")
+        "Green" -> println("Go")
+        else -> println("Invalid traffic-light color")
     }
 }
