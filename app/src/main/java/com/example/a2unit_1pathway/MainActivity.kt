@@ -14,5 +14,9 @@ import androidx.compose.ui.tooling.preview.Preview
 import com.example.a2unit_1pathway.ui.theme._2unit_1pathwayTheme
 
 fun main() {
-    println(1 < 1)
+    val trafficLightColor = "Red"
+
+    if (trafficLightColor == "Red") {
+        println("Stop")
+    }
 }
