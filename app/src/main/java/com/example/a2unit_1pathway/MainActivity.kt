@@ -17,7 +17,7 @@ import com.example.a2unit_1pathway.ui.theme._2unit_1pathwayTheme
 //    println(1 < 1)
 //}
 
-
+//------------------------------------------------
 //fun main() {
 //    val trafficLightColor = "Black"
 //
@@ -32,14 +32,27 @@ import com.example.a2unit_1pathway.ui.theme._2unit_1pathwayTheme
 //    }
 
 //}
+ //-----------------------------------------------
+//fun main() {
+//    val trafficLightColor = "Yellow"
+
+//    when (trafficLightColor) {
+//        "Red" -> println("Stop")
+//        "Yellow" -> println("Slow")
+//        "Green" -> println("Go")
+//        else -> println("Invalid traffic-light color")
+ //   }
+//}
+//-------------------------------------------------
 
 fun main() {
-    val trafficLightColor = "Yellow"
+    val x = 3
 
-    when (trafficLightColor) {
-        "Red" -> println("Stop")
-        "Yellow" -> println("Slow")
-        "Green" -> println("Go")
-        else -> println("Invalid traffic-light color")
+    when (x) {
+        2 -> println("x is a prime number between 1 and 10.")
+        3 -> println("x is a prime number between 1 and 10.")
+        5 -> println("x is a prime number between 1 and 10.")
+        7 -> println("x is a prime number between 1 and 10.")
+        else -> println("x isn't a prime number between 1 and 10.")
     }
 }
